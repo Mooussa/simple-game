@@ -1,8 +1,6 @@
-#Quiz Game in Python
+# Quiz Game in Python
 
 print("Welcome to my Computer Game!!")
-
-
 
 playing = input("Do you want to play?: ").lower()
 
@@ -26,14 +24,12 @@ while True:
     else:
         print("Incorrect!")
 
-
     answer = input("What does a TPU stand for? ").lower()
     if answer == "tensor processing unit":
         print("Correct!")
         score += 1
     else:
         print("Incorrect!")
-
 
     answer = input("What does a IPU stand for? ").lower()
     if answer == "infrastructure processing unit":
@@ -43,7 +39,7 @@ while True:
         print("Incorrect!")
 
     print("You got " + str(score) + " questions correcct!")
-    print("You got " + str((score/4)*100) + "%")
+    print("You got " + str((score / 4) * 100) + "%")
 
     play_again = input("Do you want to play again? (yes/no)").lower()
 
