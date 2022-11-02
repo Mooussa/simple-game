@@ -24,8 +24,8 @@ while True:
     else:
         print("Incorrect!")
 
-    answer = input("What does a TPU stand for? ").lower()
-    if answer == "tensor processing unit":
+    answer = input("What does a TPU stand for? ")
+    if answer.lower() == "tensor processing unit":
         print("Correct!")
         score += 1
     else:
